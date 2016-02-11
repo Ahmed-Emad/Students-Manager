@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A225B984192BA5B20099A689 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A225B983192BA5B20099A689 /* main.c */; };
 		A225B986192BA5B20099A689 /* Data_Structure_Project.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A225B985192BA5B20099A689 /* Data_Structure_Project.1 */; };
+		A225B98E192BA5E50099A689 /* Binary_Trees.c in Sources */ = {isa = PBXBuildFile; fileRef = A225B98C192BA5E50099A689 /* Binary_Trees.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A225B980192BA5B20099A689 /* Data Structure Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structure Project"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A225B980192BA5B20099A689 /* Students Manager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Students Manager"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A225B983192BA5B20099A689 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A225B985192BA5B20099A689 /* Data_Structure_Project.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Data_Structure_Project.1; sourceTree = "<group>"; };
+		A225B98C192BA5E50099A689 /* Binary_Trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Binary_Trees.c; path = "Students Manager/Binary_Trees.c"; sourceTree = "<group>"; };
+		A225B98D192BA5E50099A689 /* Binary_Trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Binary_Trees.h; path = "Students Manager/Binary_Trees.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +47,9 @@
 		A225B977192BA5B20099A689 = {
 			isa = PBXGroup;
 			children = (
-				A225B982192BA5B20099A689 /* Data Structure Project */,
+				A225B98C192BA5E50099A689 /* Binary_Trees.c */,
+				A225B98D192BA5E50099A689 /* Binary_Trees.h */,
+				A225B982192BA5B20099A689 /* Students Manager */,
 				A225B981192BA5B20099A689 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,26 +57,26 @@
 		A225B981192BA5B20099A689 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A225B980192BA5B20099A689 /* Data Structure Project */,
+				A225B980192BA5B20099A689 /* Students Manager */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A225B982192BA5B20099A689 /* Data Structure Project */ = {
+		A225B982192BA5B20099A689 /* Students Manager */ = {
 			isa = PBXGroup;
 			children = (
 				A225B983192BA5B20099A689 /* main.c */,
 				A225B985192BA5B20099A689 /* Data_Structure_Project.1 */,
 			);
-			path = "Data Structure Project";
+			path = "Students Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A225B97F192BA5B20099A689 /* Data Structure Project */ = {
+		A225B97F192BA5B20099A689 /* Students Manager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A225B989192BA5B20099A689 /* Build configuration list for PBXNativeTarget "Data Structure Project" */;
+			buildConfigurationList = A225B989192BA5B20099A689 /* Build configuration list for PBXNativeTarget "Students Manager" */;
 			buildPhases = (
 				A225B97C192BA5B20099A689 /* Sources */,
 				A225B97D192BA5B20099A689 /* Frameworks */,
@@ -81,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = "Data Structure Project";
+			name = "Students Manager";
 			productName = "Data Structure Project";
-			productReference = A225B980192BA5B20099A689 /* Data Structure Project */;
+			productReference = A225B980192BA5B20099A689 /* Students Manager */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +100,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ahmed Barakat";
 			};
-			buildConfigurationList = A225B97B192BA5B20099A689 /* Build configuration list for PBXProject "Data Structure Project" */;
+			buildConfigurationList = A225B97B192BA5B20099A689 /* Build configuration list for PBXProject "Students Manager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A225B97F192BA5B20099A689 /* Data Structure Project */,
+				A225B97F192BA5B20099A689 /* Students Manager */,
 			);
 		};
 /* End PBXProject section */
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A225B98E192BA5E50099A689 /* Binary_Trees.c in Sources */,
 				A225B984192BA5B20099A689 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,21 +201,21 @@
 		A225B98A192BA5B20099A689 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Students Manager";
 			};
 			name = Debug;
 		};
 		A225B98B192BA5B20099A689 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Students Manager";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A225B97B192BA5B20099A689 /* Build configuration list for PBXProject "Data Structure Project" */ = {
+		A225B97B192BA5B20099A689 /* Build configuration list for PBXProject "Students Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A225B987192BA5B20099A689 /* Debug */,
@@ -218,13 +224,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A225B989192BA5B20099A689 /* Build configuration list for PBXNativeTarget "Data Structure Project" */ = {
+		A225B989192BA5B20099A689 /* Build configuration list for PBXNativeTarget "Students Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A225B98A192BA5B20099A689 /* Debug */,
 				A225B98B192BA5B20099A689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
